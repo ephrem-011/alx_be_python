@@ -10,5 +10,4 @@ def perform_operation(num1, num2, operation):
                 return "Division by zero iss not possible"
             else:
                 return num1/num2
-print(perform_operation(2,0,"divide"))
     
