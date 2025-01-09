@@ -23,7 +23,5 @@ def main():
                 break
             case _:
                 print("Wrong input")
-                continue
-
 if __name__ == "__main__":
     main()
