@@ -4,7 +4,6 @@ class BankAccount:
         self.initial_balance=0
     def deposit(self, amount):
         self.amount=amount
-        self.account_balance+=self.amount
     def withdraw(self, amount):
         self.amount=amount
     def display_balance(self):
