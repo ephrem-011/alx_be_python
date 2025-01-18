@@ -18,4 +18,7 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_division(self):
         self.assertEqual(self.calc.divide(9,3), 3)
         self.assertEqual(self.calc.divide(5,0), None)
+
+if __name__ == "__main__":
+  unittest.main()
        
