@@ -12,7 +12,7 @@ class PrintBook(Book):
         self.page_count=page_count
 class Library:
     def __init__(self):
-        self.books=[]
+        self.books = []
     def __str__(self):
         return f"This is library class"
     def add_book(self, book):
